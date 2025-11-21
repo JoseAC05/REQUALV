@@ -15,6 +15,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const clearBtn = document.getElementById('clearBtn');
     const saveProgressBtn = document.getElementById('saveProgressBtn');
 
+
+    // URL base de tu backend
+const API_BASE_URL = "https://requalv.vercel.app/"; // cambia a tu dominio en producción
+
+
     // --- STATE MANAGEMENT ---
     let currentStep = 0;
     const TOTAL_STEPS = steps.length;
